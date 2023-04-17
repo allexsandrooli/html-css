@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(67, 70, 73);
+            padding:3px;
+            box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.541); 
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 5px;
+        }
+        main{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 7px 10px rgba(0, 0, 0, 0.521);
+        }
+        article{
+            background-color: white;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: lightgray;
+            
+        }
+        footer{
+            background-color: black;
+            color:white;
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>meu site</h1>
+       <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+
+        
+       </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsam, assumenda id ea facere molestias illo eaque corrupti magni quis, et earum laborum. Ullam odio soluta minima quis praesentium aliquid.</p>
+                <aside>
+                    <p>artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo cursoemvideo</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>tipos de formularios</h1>
+    <form action="http://www.example.com/subscribe.php">
+    <p>
+        <h2>caixa de texto</h2>
+        texto:<input type="text" name="username" size="14" maxlength="30">
+    </p>
+    <p>
+        <h2>caixa de senha</h2>
+        senha:<input type="password" name="password" size="12" maxlength="20">
+    </p>
+    <p>
+        <h2>caixa de comentarios</h2>
+        <textarea name="comentários" id="" cols="30" rows="10">escreva</textarea>
+    </p>
+    <p>
+        <h2>caixa de escolha unica</h2>
+        1<input type="radio" name="numeros" id="1">
+        2<input type="radio" name="numeros" id="2">
+        3<input type="radio" name="numeros" id="3">
+    </p>
+    <p>
+        <h2>caixa de multi escolha</h2>
+        1<input type="checkbox" name="numeros" id="1">
+        2<input type="checkbox" name="numeros" id="2">
+        3<input type="checkbox" name="numeros" id="3">
+    </p>
+    <p>
+        <h2>caixa de seleçao</h2>
+        <select name="animais" id="" multiple>
+            qual seu animal preferido:<option value="cachorro">cachorro</option>
+            <option value="gato">gato</option>
+            <option value="peixe">peixe</option>
+        </select>
+    </p>
+    <p>
+        <input type="file" name="aruqivo" id="imagem" value=>
+        <input type="submit" value="enviar">
+    </p>
+    <p>
+        <h2>botão de imagem</h2>
+        <input type="text" src="email">
+        <input type="image" src="download.jpg" alt="botão" height="25" width="100">
+    </p>
+    <p>
+        <label for=""><input type="button" value="" hidden></label>
+    </p>
+    <p>
+        <fieldset>
+            <legend>detalhes</legend>
+            texto: <input type="text">      <br>
+            email: <input email="email">    <br>
+            senha: <input password="senha"> <br>
+        </fieldset>
+    </p>
+    <p>
+        <h2>caixa de data</h2>
+        qual é a data de hojé<input type="date" name="data" id="">
+    </p>
+    <p><h2>caixa de url</h2>
+<input type="url">
+   </p>
+   <p><h2>caixa de pesquisa</h2>
+    <input type="search" name="pesquisa" id="">
+</p>
+    </form>
+</body>
+</html>
