@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: sriracha;
+    font-size: 56px;
+    background-attachment: fixed;
+
+}
+
+header{
+    background: black;
+    font-family:passion one;
+    text-align:center;
+    color: white;
+    height: 300px;
+    padding-top: 50px;
+
+}
+header  p{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+header  a{
+    
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.primeiro-paragrafo{
+    background-attachment: fixed;
+    width:600px;
+    padding: 70px 0px 100px 30px;   
+}
+
+.segundo-paragrafo{
+    background-image:url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 70px 0px 100px 30px;
+}
+
+.segundo-paragrafo p{
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.400);
+    padding: 10px;
+    color: aliceblue;
+}
+
+.terceiro-paragrafo{
+    background-attachment: fixed;
+    padding: 70px 0px 100px 30px;
+}
+.terceiro-paragrafo p{
+    width: 35%;
+}
+
+.quarto-paragrafo{
+    background-image:url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 70px 0px 100px 30px;
+}
+
+.quarto-paragrafo p{
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.400);
+    padding: 10px;
+    color: aliceblue;
+}
+.quinto-paragrafo{
+    background-attachment: fixed;
+    width: 600px;
+    padding: 70px 0px 100px 30px;
+}
+
+footer{
+    background-color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    height:60px;
+    min-height: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    padding: 10px;
+}
