@@ -13,19 +13,22 @@
 body{
     background-color: aliceblue;
     font-family: sriracha;
-    font-size: 56px;
     background-attachment: fixed;
 
 }
 
+div{
+    font-size: 3vw;
+    line-height: 2,5em;
+}
 header{
-    background: black;
+    background-color: black;
     font-family:passion one;
-    text-align:center;
+    font-size: 3vw;
+    text-align: center;
     color: white;
     height: 300px;
     padding-top: 50px;
-
 }
 header  p{
     text-align:center;
@@ -41,51 +44,42 @@ header  a{
 header a:hover{
     text-decoration: underline;
 }
-.primeiro-paragrafo{
+.normal{
     background-attachment: fixed;
-    width:600px;
-    padding: 70px 0px 100px 30px;   
+    padding: 70px 0px 100px 30px; 
 }
 
-.segundo-paragrafo{
+
+.image{
     background-image:url(imagens/background001.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: top center;
     padding: 70px 0px 100px 30px;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
+}
+.image >p{
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 55vh;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+    padding: 15px;
 }
 
-.segundo-paragrafo p{
-    width: 35%;
-    background-color: rgba(0, 0, 0, 0.400);
-    padding: 10px;
-    color: aliceblue;
-}
-
-.terceiro-paragrafo{
-    background-attachment: fixed;
-    padding: 70px 0px 100px 30px;
-}
-.terceiro-paragrafo p{
-    width: 35%;
-}
-
-.quarto-paragrafo{
+.segunda-image{
     background-image:url(imagens/background002.jpg);
     background-attachment: fixed;
     background-size:cover;
     padding: 70px 0px 100px 30px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
 }
 
-.quarto-paragrafo p{
-    width: 35%;
-    background-color: rgba(0, 0, 0, 0.400);
-    padding: 10px;
-    color: aliceblue;
-}
-.quinto-paragrafo{
-    background-attachment: fixed;
-    width: 600px;
-    padding: 70px 0px 100px 30px;
+.segunda-image >p{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 55vh;
+    padding: 15px;
 }
 
 footer{
