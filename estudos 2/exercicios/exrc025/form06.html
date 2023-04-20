@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>teste de formularios</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+           <input type="color" name="cor" id="icor">
+           <label for="icor">escolha uma cor</label>
+        </fieldset>
+        <fieldset>
+            <input type="range" name="nivel" id="ni" min="2" max="4" value="1">
+            <label for="ni">Nivel de satisfaçao</label>            
+        </fieldset>
+        <fieldset>
+            <input type="file" name="file" id="file">     
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
