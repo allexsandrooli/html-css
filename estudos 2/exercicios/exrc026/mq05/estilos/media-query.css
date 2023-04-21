@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*todas as demais midias*/
+
+/* typical device breakpoints
+-------------------------------
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+tablet: 768 ate 992px
+desktop: 992px ate 1200px
+gandes telas: acima de 1200px
+*/
+
+@media screen and (min-width:768px) {
+    #imenu{
+        display: none;
+
+    }
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    main{
+        width: 768px;
+    }
+}
